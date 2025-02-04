@@ -1,1 +1,39 @@
-<h1> Ejemplo de la pagina: </h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <button id="showLogin">Iniciar Sesión</button>
+            <button id="showRegister">Registrarse</button>
+        </div>
+
+        <div class="form-container">
+            <form id="loginForm" class="form">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" id="loginUser" placeholder="Usuario" required>
+                <input type="password" id="loginPass" placeholder="Contraseña" required>
+                <button type="submit">Entrar</button>
+                <p class="error-message" id="loginError"></p>
+            </form>
+
+            <form id="registerForm" class="form hidden">
+                <h2>Registro</h2>
+                <input type="text" id="registerUser" placeholder="Usuario" required>
+                <input type="email" id="registerEmail" placeholder="Correo Electrónico" required>
+                <input type="password" id="registerPass" placeholder="Contraseña" required>
+                <input type="password" id="registerPassConfirm" placeholder="Repetir Contraseña" required>
+                <button type="submit">Registrarse</button>
+                <p class="error-message" id="registerError"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
