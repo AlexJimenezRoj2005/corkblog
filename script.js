@@ -36,11 +36,11 @@ function changeLanguage(lang) {
 
     const translations = {
         es: {
-            title: "Mi Blog",
+            title: "Mi Erasmus en Irlanda",
             "Buscar posts...": "Buscar posts..."
         },
         en: {
-            title: "My Blog",
+            title: "My Erasmus in Ireland",
             "Buscar posts...": "Search posts..."
         }
     };
