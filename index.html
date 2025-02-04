@@ -8,8 +8,12 @@
 </head>
 <body>
     <header>
-        <h1>Mi Blog</h1>
-        <input type="text" id="search" placeholder="Buscar posts...">
+        <h1 data-lang="title">Mi Blog</h1>
+        <div class="language-switch">
+            <img src="imgs/españa.png" alt="Español" id="spanish-btn">
+            <img src="imgs/ingles.jpg" alt="English" id="english-btn">
+        </div>
+        <input type="text" id="search" placeholder="Buscar posts..." data-lang-placeholder="Buscar posts...">
     </header>
     <main id="posts-container">
         <!-- Los posts se agregarán dinámicamente aquí -->
