@@ -1,7 +1,7 @@
 const posts = {
     es: [
         { title: "¿De qué trata este Blog?", content: "Este blog trata sobre mi experiencia día a día sobre el Erasmus en Irlanda, Cork.", url: "post/post1.html" },
-        { title: "Segundo Post", content: "Este es el contenido del segundo post.", url: "post/post2.html" },
+        { title: "Pimer dia en Irlanda", content: "En este post te cuento primeras impresiones y la aventura del primer dia en Irlanda.", url: "post/post2.html" },
         { title: "Tercer Post", content: "Este es el contenido del tercer post.", url: "post/post3.html" }
     ],
     en: [
